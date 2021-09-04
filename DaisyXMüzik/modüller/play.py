@@ -557,7 +557,7 @@ async def oynat(_, message: Message):
         )
         file_name = get_file_name(audio)
         title = file_name
-        thumb_name = "https://telegra.ph/file/03f1c9ec4513c3a52bc22.jpg"
+        thumb_name = "https://telegra.ph/file/a0c4a5e178ac3bf74050e.jpg"
         thumbnail = thumb_name
         duration = round(audio.duration / 60)
         views = "Locally added"
@@ -1059,7 +1059,7 @@ async def jiosaavn(client: Client, message_: Message):
     try:
         user = await USER.get_me()
     except:
-        user.first_name = "DaisyMusic"
+        user.first_name = "HatiralaraMusic"
     usar = user
     wew = usar.id
     try:
